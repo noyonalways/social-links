@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .bg-color-mode{
+        @apply bg-slate-100 dark:bg-dark
+    }
+    .text-paragraph{
+        @apply text-gray-700 dark:text-gray-400
+      }
+}
