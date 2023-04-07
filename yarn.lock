@@ -583,7 +583,7 @@ quick-lru@^5.1.1:
   resolved "https://registry.npmjs.org/quick-lru/-/quick-lru-5.1.1.tgz"
   integrity sha512-WuyALRjWPDGtt/wzJiadO5AXY+8hZ80hVpe6MyivgraREW751X3SbhRvG3eLKOYN+8VEvqLcf3wdnt44Z4S4SA==
 
-react-dom@^18.0.0, react-dom@^18.2.0:
+react-dom@^18.0.0, react-dom@^18.2.0, react-dom@>=16.0.8:
   version "18.2.0"
   resolved "https://registry.npmjs.org/react-dom/-/react-dom-18.2.0.tgz"
   integrity sha512-6IMTriUmvsjHUjNtEDudZfuDQUoWXVxKHhlEGSk81n4YFS+r/Kl99wXiwlVXtPBtJenozv2P+hxDsw9eA7Xo6g==
@@ -596,7 +596,12 @@ react-icons@^4.8.0:
   resolved "https://registry.npmjs.org/react-icons/-/react-icons-4.8.0.tgz"
   integrity sha512-N6+kOLcihDiAnj5Czu637waJqSnwlMNROzVZMhfX68V/9bu9qHaMIJC4UdozWoOk57gahFCNHwVvWzm0MTzRjg==
 
-react@*, react@^18.0.0, react@^18.2.0:
+react-lite-youtube-embed@^2.3.52:
+  version "2.3.52"
+  resolved "https://registry.npmjs.org/react-lite-youtube-embed/-/react-lite-youtube-embed-2.3.52.tgz"
+  integrity sha512-G010PvCavA4EqL8mZ/Sv9XXiHnjMfONW+lmNeCRnSEPluPdptv2lZ0cNlngrj7K9j7luc8pbpyrmNpKbD9VMmw==
+
+react@*, react@^18.0.0, react@^18.2.0, react@>=16.0.8:
   version "18.2.0"
   resolved "https://registry.npmjs.org/react/-/react-18.2.0.tgz"
   integrity sha512-/3IjMdb2L9QbBdWiW5e3P2/npwMBaU9mHCSCUzNln0ZCYbcfTsGbTJrU/kGemdH2IWmB2ioZ+zkxtmq6g09fGQ==

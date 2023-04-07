@@ -1,5 +1,4 @@
 import React, { useRef } from "react";
-import SocialButton from "./SocialButton";
 import {
 	BsFacebook,
 	BsTwitter,
@@ -10,6 +9,7 @@ import {
 } from "react-icons/bs";
 import { AnimatePresence, motion } from "framer-motion";
 import DarkModeToggle from "./DarkModeToggle";
+import SocialButton from "../SocialButton";
 
 const links = [
 	{
@@ -96,12 +96,16 @@ const Main = () => {
 							</AnimatePresence>
 						</motion.div>
 						<motion.div
-							initial= {{opacity: 0}}
-                            animate= {{ opacity: 1}}
+							initial={{ opacity: 0 }}
+							animate={{ opacity: 1 }}
 							transition={{ duration: 0.8 }}
 							className="font-spaceGrotesk px-2 py-2 flex items-center justify-between w-full"
 						>
-							<a href="https://noyonrahman.xyz" target="_blank" className="flex items-center space-x-2">
+							<a
+								href="https://noyonrahman.xyz"
+								target="_blank"
+								className="flex items-center space-x-2"
+							>
 								<div className="w-8 h-8 bg-slate-800 ring-2 dark:ring-primary/[.8] ring-secondary/[.8] text-gray-100 flex justify-center items-center rounded-full font-bold">
 									N
 								</div>
